@@ -1,0 +1,26 @@
+/* Estilos personalizados do Petshop Amigo Fiel - Fase 2 */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Ajuste de altura e recorte das imagens do carrossel */
+.carousel-img {
+    height: 380px;
+    object-fit: cover;
+    filter: brightness(0.85);
+}
+
+/* Padronização das imagens dos cards de produtos */
+.produto-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Foco visível aprimorado para navegação por teclado (Acessibilidade - Aula 10) */
+a:focus, button:focus, input:focus {
+    outline: 3px solid #ffc107 !important;
+    outline-offset: 2px;
+}
